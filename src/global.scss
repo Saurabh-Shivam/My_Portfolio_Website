@@ -1,0 +1,11 @@
+$mainColor: #9f5bdb;
+
+$width: 768px;
+
+// The @mixin directive let us create CSS code that is to be reused throughout the website and the @include directive is created 
+// to let us use (include) the mixin.
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
