@@ -16,6 +16,8 @@
 
     @include mobile{
       font-size: 20px;
+      overflow: hidden;
+      margin-top: 2rem;
     }
   }
 
@@ -55,7 +57,8 @@
           @include mobile{
             width: 250px;
             height: 180px;
-            margin: 1px;
+            // margin: 1px;
+            margin-top: 1.3rem;
           }
       }
 
@@ -94,8 +97,8 @@
         background-color: rgb(250, 244, 245);
 
         @include mobile{
-          font-size: 12px;
-          padding: 5px;
+          font-size: 10px;
+          padding: 3px;
         }
       }
       .bottom {

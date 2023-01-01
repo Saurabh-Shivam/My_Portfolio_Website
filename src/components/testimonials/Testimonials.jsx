@@ -8,7 +8,8 @@ export default function Testimonials() {
       title: "Engineer at Kendryl",
       img: "assets/profile1.jpg",
       icon: "assets/twitter.png",
-      desc: "Without doubt one of the talented programmers out there. I always go back to Saurabh when I'm out of my depth and he's never failed to deliver what I ask for. Smart, trustworthy and professional. You won't be disappointed.",
+      desc: "Without doubt one of the talented programmers out there. I always go back to Saurabh when I'm out of my depth and he's never failed to deliver what I ask for.",
+      featured: true,
     },
     {
       id: 2,
@@ -17,6 +18,7 @@ export default function Testimonials() {
       img: "assets/profile.jpg",
       icon: "assets/linkedin.png",
       desc: "A very good programmer and student of mine. He developed me my institute's website in very less time and with all the important functionality I asked to add in.",
+      featured: true,
     },
     {
       id: 3,
@@ -24,7 +26,7 @@ export default function Testimonials() {
       title: "MCA Student",
       img: "assets/profile7.jpeg",
       icon: "assets/youtube.png",
-      desc: "My programming buddy, helped me understand Full Stack Development very easily and also helped me in building my final year project. He is very supportive and cooperative with others and also have this open to learn new things mentality. ",
+      desc: "My programming buddy, has helped me throughout my coding journey. He also have this open to learn new things mentality. ",
       featured: true,
     },
   ];

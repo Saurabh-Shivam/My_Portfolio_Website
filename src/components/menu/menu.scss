@@ -34,6 +34,10 @@
         font-size: inherit;
         color: inherit;
         text-decoration: none;
+
+        @include mobile{
+          font-size: 25px;
+        }
       }
 
       &:hover {
