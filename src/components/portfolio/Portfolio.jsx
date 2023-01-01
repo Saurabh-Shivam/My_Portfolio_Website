@@ -6,7 +6,6 @@ import {
   webPortfolio,
   mobilePortfolio,
   morePortfolio,
-  // contentPortfolio,
 } from "../../data";
 import resume from "./Resume.pdf";
 
@@ -30,10 +29,6 @@ export default function Portfolio() {
       id: "more",
       title: "More",
     },
-    // {
-    //   id: "content",
-    //   title: "Content",
-    // },
   ];
 
   useEffect(() => {
@@ -50,9 +45,6 @@ export default function Portfolio() {
       case "more":
         setData(morePortfolio);
         break;
-      // case "content":
-      //   setData(contentPortfolio);
-      //   break;
       default:
         setData(featuredPortfolio);
     }

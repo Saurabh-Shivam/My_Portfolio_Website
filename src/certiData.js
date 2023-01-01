@@ -26,7 +26,7 @@ export const certiData = [
   {
     id: 5,
     // title: " C",
-    img: "https://i.postimg.cc/BnqsZSL3/html.png",
+    img: "https://i.postimg.cc/LXVnxHM2/C.png",
     goto: "https://www.sololearn.com/certificates/CT-JXEI0DSC",
   },
   {
