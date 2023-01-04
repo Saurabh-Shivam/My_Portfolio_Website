@@ -7,7 +7,7 @@ import {
   mobilePortfolio,
   morePortfolio,
 } from "../../data";
-import resume from "./Resume.pdf";
+import resume from "./SaurabhShivamResume.pdf";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
