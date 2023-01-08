@@ -18,7 +18,7 @@ export default function Education() {
       img: "https://media.licdn.com/dms/image/C4D0BAQGgLzDw0lJ96w/company-logo_200_200/0/1594662401192?e=2147483647&v=beta&t=hlhRFdFKmi-iS840Ij5G9kfo_RJb4jR7jAuOZBiTBfs",
       //   icon: "assets/youtube.png",
       date: "2019 - 2022",
-      desc: "Completed BCA(Bachelors's in Computer Application) with __ CJPA.",
+      desc: "Completed BCA(Bachelors's in Computer Application) with 8.72 CGPA.",
       featured: true,
     },
     // {
