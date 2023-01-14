@@ -46,12 +46,14 @@ export default function Contact() {
             // try to match the name field with the template id field if using emailjs
             name="user_name"
             placeholder="name"
+            required
           />
           <input
             type="text"
             // try to match the name field with the template id field if using emailjs
             name="user_email"
             placeholder="Email"
+            required
           />
           <textarea
             cols="30"
@@ -59,6 +61,7 @@ export default function Contact() {
             // try to match the name field with the template id field if using emailjs
             name="message"
             placeholder="Message"
+            required
           ></textarea>
           <button type="submit">Send</button>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
